@@ -1,0 +1,126 @@
+html *{
+  overflow-x: hidden;
+}
+
+body{
+  background-color: #202121;
+}
+
+/* assets */
+.roboto{
+  font-family: 'Roboto', sans-serif;
+}
+
+.color-3ea6ff{
+  color:#3ea6ff
+}
+
+.color-aaa{
+  color:rgb(207, 193, 193);
+} 
+
+.color-FF0000{
+  color:#FF0000;
+}
+
+.color-aaa{
+  color:#aaa;
+}
+/* assets */
+
+
+/* side */
+.main-bg{
+  background-color: #202121;
+}
+
+.pe-4-custom{
+  padding-right: 2rem;
+}
+
+
+.secret-line{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.secret-line-2{
+  margin-top: 1rem;
+  border-bottom: 0.2rem solid rgba(255, 255, 255, 0.1);
+}
+
+.secret-line-mobile{
+  margin-top: 1rem;
+  border-bottom: 0.2rem solid rgba(255, 255, 255, 0.1);
+}
+
+.fs-custom{
+  font-size: 0.9rem;
+}
+
+.fs-custom-laptop{
+  font-size: 0.7rem;
+} 
+
+.fs-tablet{
+  font-size: 0.6rem;
+}
+.border-color{
+  border: 0.1rem solid #3ea6ff;
+}
+
+
+.overflows-x{
+  overflow-x: hidden;
+}
+
+/* side */
+
+
+/* center */
+::placeholder{
+  font-family: 'Roboto', sans-serif;
+}
+
+.form-control{
+  background-color: #131213 !important;
+  border: 1px solid hsl(0, 0%, 18.82%) !important;
+  border-radius:0rem !important;
+  width:30% !important;
+}
+
+.bg-search{
+  background-color: #303031;
+}
+
+.bg-mic{
+  background-color: #131213;
+}
+
+.bg-black-custom{
+  border: 1px solid hsl(0, 0%, 18.82%) !important;
+  background-color: #303031;
+}
+
+.bg-darker{
+  background-color: #191918;
+}
+
+.position-absolutes{
+  position: absolute;
+  right:0;
+  bottom: 0;
+}
+
+.bg-dark-transparent{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.sub-text{
+  font-size: 0.9rem;
+}
+
+.fs-custom-mobile{
+  font-size: 0.4rem;
+}
+
+/* center */

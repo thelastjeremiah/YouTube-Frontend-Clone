@@ -1,0 +1,1793 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="image/youtube.png">
+  <title>Youtube Clone</title>
+  <!--=========== custom Boostrap ===========-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  
+  <!--=========== custom fonts ===========-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!--=========== custom css ============-->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <section class="main-bg">
+
+    <!--=========== Desktop View ===========-->
+    <div class="d-none d-xxl-block">
+      <div class="row ">
+        <div class="col-2 pt-3">
+  
+          <div class="d-flex justify-conten-center align-items-center mx-5 my-2 pb-3">
+            <i class="fa-solid fa-bars text-white pe-4"></i>
+            <img src="image/youtube-logo.svg"  class="img-fluid w-50">
+          </div>
+  
+          
+          <div class="mx-5 my-3 d-flex justify-conten-center align-items-center">
+            <i class="fa-solid fa-house text-white pe-4 fs-5"></i>
+            <span class="roboto text-white ">Home</span>
+          </div>
+  
+          <div class="mx-5 my-3 d-flex justify-conten-center align-items-center">
+            <i class="fa-solid fa-compass text-white pe-4 fs-5"></i>
+            <span class="roboto text-white ">Explore</span>
+          </div>  
+  
+          <div class="mx-5 my-3 d-flex justify-conten-center align-items-center">
+            <i class="fa-solid fa-sort  text-white pe-4-custom fs-5"></i>
+            <span class="roboto text-white">Shorts</span>
+          </div>
+  
+          <div class="mx-5 my-3 d-flex justify-conten-center align-items-center secret-line pb-3">
+            <i class="fa-brands fa-youtube text-white pe-4 fs-5"></i>
+            <span class="roboto text-white">Subscriptions</span>
+          </div>
+  
+          <!-- =========second layer========= -->
+  
+          <div class="mx-5 my-3 d-flex justify-conten-center align-items-center">
+            <i class="fa-solid fa-play  text-white pe-4 fs-5"></i>
+            <span class="roboto text-white ">Library</span>
+          </div>
+  
+          <div class="mx-5 my-3 d-flex justify-conten-center align-items-center secret-line pb-3">
+            <i class="fa-solid fa-clock text-white pe-4 fs-5"></i>
+            <span class="roboto text-white ">History</span>
+          </div>  
+  
+  
+          <!-- ========= subscriptions ========= -->
+          <div class="mx-5 my-3 d-flex justify-conten-center align-items-center">
+            <span class="roboto text-white text-uppercase fs-custom">Sign in to like videos, comment, and subscribe.</span>
+          </div>
+          
+          
+          <div class="mx-5 secret-line pb-3">
+
+            <!-- ========= desktop ========= -->
+            <div class="d-none d-xxl-block">
+              <div class="border-color  w-50">
+                <div class="pt-2 d-flex justify-content-evenly">
+                  <i class="fa-solid fa-circle-user  fs-5 color-3ea6ff"></i>
+                  <span class="text-uppercase roboto color-3ea6ff ">sign in</span>
+                </div>
+              </div>  
+            </div>
+            
+            <!-- ========= mobile ========= -->
+            <div class="d-block d-xxl-none">
+              <div class="border-color">
+                <div class="pt-2 d-flex justify-content-evenly">
+                  <i class="fa-solid fa-circle-user  fs-5 color-3ea6ff"></i>
+                  <span class="text-uppercase roboto color-3ea6ff ">sign in</span>
+                </div>
+              </div>
+            </div>
+            
+
+          </div>
+          
+          <!-- ========= third layer ========= -->
+          <div class="mx-5 my-3 d-flex justify-conten-center align-items-center">
+            <i class="fa-solid fa-music text-white pe-4 fs-5"></i>
+            <span class="roboto text-white">Music</span>
+          </div>
+  
+          <div class="mx-5 my-3 d-flex justify-conten-center align-items-center">
+            <i class="fa-solid fa-baseball text-white pe-4 fs-5"></i>
+            <span class="roboto text-white">Sport</span>
+          </div>
+  
+          <div class="mx-5 my-3 d-flex justify-conten-center align-items-center">
+            <i class="fa-brands fa-playstation text-white pe-4 fs-5"></i>
+            <span class="roboto text-white">Gaming</span>
+          </div>
+  
+          <div class="mx-5 my-3 d-flex justify-conten-center align-items-center">
+            <i class="fa-solid fa-clapperboard text-white pe-4 fs-5"></i>
+            <span class="roboto text-white">Movies</span>
+          </div>
+  
+          <div class="mx-5 my-3 d-flex justify-conten-center align-items-center">
+            <i class="fa-solid fa-newspaper text-white pe-4 fs-5"></i>
+            <span class="roboto text-white">News</span>
+          </div>  
+  
+          <div class="mx-5 my-3 d-flex justify-conten-center align-items-center">
+            <i class="fa-solid fa-venus  text-white pe-4 fs-5"></i>
+            <span class="roboto text-white">Fashion & Beauty</span>
+          </div>
+  
+          <div class="mx-5 my-3 d-flex justify-conten-center align-items-center secret-line pb-3">
+            <i class="fa-solid fa-photo-film text-white pe-4 fs-5"></i>
+            <span class="roboto text-white">360° Video</span>
+          </div>
+  
+          <div class="mx-5 my-3 d-flex justify-conten-center align-items-center secret-line pb-3">
+            <i class="fa-solid fa-circle text-white pe-4 fs-5"></i>
+            <span class="roboto text-white">Browse channels</span>
+          </div>
+  
+          <!-- ========= fourth layer ========= -->
+          <div class="mx-5 my-3 d-flex justify-conten-center align-items-center secret-line pb-3">
+            <i class="fa-solid fa-magnifying-glass text-white pe-4 fs-5"></i>
+            <span class="roboto text-white">Browse Channels</span>
+          </div>
+  
+          <!-- ========= more from youtube ========= -->
+          <div class="mx-5 my-3 d-flex justify-conten-center align-items-center">
+            <span class="roboto text-uppercase color-aaa">more from youtube</span>
+          </div>
+          
+          <!-- ========= desktop mode ========= -->
+          <div class="d-none d-xxl-block">
+            <div class="mx-5 my-3 d-flex justify-conten-center align-items-center">
+              <img src="image/youtube.png" class="img-fluid w-25 pe-3">
+              <span class="robototext-white text-white text-uppercase fs-custom">more from youtube</span>
+            </div>
+          </div>
+          
+          
+          <!-- ========= laptop-screen mode ========= -->
+          <div class="d-block d-xxl-none">
+            <div class="mx-5 my-3 d-flex justify-conten-center align-items-center">
+              <img src="image/youtube.png" class="img-fluid w-50 pe-3">
+              <span class="robototext-white text-white text-uppercase fs-custom-laptop">more from youtube</span>
+            </div>
+          </div>
+          
+          <!-- ========= desktop mode ========= -->
+          <div class="d-none d-xxl-block">
+            <div class="mx-5 my-3 d-flex justify-conten-center align-items-center">
+              <img src="image/youtube-music-logo.svg" class="img-fluid w-25 pe-3">
+              <span class="robototext-white text-white text-uppercase fs-custom">youtube music</span>
+            </div>  
+          </div>
+          
+          <!-- ========= laptop mode ========= -->
+          <div class="d-block d-xxl-none">
+            <div class="mx-5 my-3 d-flex justify-conten-center align-items-center">
+              <img src="image/youtube-music-logo.svg" class="img-fluid w-50 pe-3">
+              <span class="robototext-white text-white text-uppercase fs-custom-laptop">youtube music</span>
+            </div>  
+          </div>
+
+          
+        </div>
+  
+        <div class="col-sm-10 ">
+  
+          <!-- ========= nav part ========= -->
+          <div class="secret-line pb-3"> 
+            <div class="row">
+  
+              <div class="col-10 align-self-center">
+                <div class="d-flex justify-content-center ">
+                  <input type="text" class="form-control" placeholder="Search">
+                  <div class="bg-search px-3 pt-2">
+                    <i class="fa-solid fa-magnifying-glass text-white fs-5"></i>
+                  </div>
+                  <img src="image/mic-2.png" class="img-fluid px-3">
+                </div>
+              </div>
+  
+              <div class="col-2 align-self-center">
+  
+                <div class="d-flex justify-content-between align-items-center px-3">
+  
+                  <div class="pt-3">
+                    <i class="fa-solid fa-ellipsis-vertical text-white fs-3"></i>
+                  </div>
+  
+                  <div class="border-color w-75 mt-3">
+                    <div class="d-flex justify-content-evenly py-2">
+                      <i class="fa-solid fa-circle-user  fs-5 color-3ea6ff"></i>
+                      <span class="text-uppercase roboto color-3ea6ff ">sign in</span>
+                    </div>
+                  </div>
+                
+                </div>
+              
+                
+  
+              </div>
+            </div>
+            
+  
+  
+          </div>
+          
+          <div class="secret-line py-3 ">
+            <div class="d-flex justify-content-evenly align-items-center">
+  
+              <div class="bg-white px-3 py-1 rounded-pill mx-1">
+                <span class="roboto">All</span>
+              </div>
+              
+              <div class="bg-black-custom px-3 py-1 rounded-pill mx-1">
+                <span class="roboto text-white">Live</span>
+              </div>
+  
+              <div class="bg-black-custom px-3 py-1 rounded-pill mx-1">
+                <span class="roboto text-white">Dare </span>
+              </div>
+  
+              <div class="bg-black-custom px-3 py-1 rounded-pill mx-1">
+                <span class="roboto text-white">Walk </span>
+              </div>
+  
+              <div class="bg-black-custom px-3 py-1 rounded-pill mx-1">
+                <span class="roboto text-white">Mice </span>
+              </div>
+  
+              <div class="bg-black-custom px-3 py-1 rounded-pill mx-1">
+                <span class="roboto text-white">Star </span>
+              </div>
+  
+              <div class="bg-black-custom px-3 py-1 rounded-pill mx-1">
+                <span class="roboto text-white">Iron </span>
+              </div>
+              
+              <div class="bg-black-custom px-3 py-1 rounded-pill mx-1 d-none d-xxl-block ">
+                <span class="roboto text-white">Harm </span>
+              </div>
+  
+              <div class="bg-black-custom px-3 py-1 rounded-pill mx-1 d-none d-xxl-block">
+                <span class="roboto text-white">Scot </span>
+              </div>
+  
+              <div class="bg-black-custom px-3 py-1 rounded-pill mx-1 d-none d-xxl-block">
+                <span class="roboto text-white">Bush </span>
+              </div>
+  
+              <div class="bg-black-custom px-3 py-1 rounded-pill mx-1 d-none d-xxl-block">
+                <span class="roboto text-white">Nice </span>
+              </div>
+  
+              <div class="bg-black-custom px-3 py-1 rounded-pill mx-1 d-none d-xxl-block">
+                <span class="roboto text-white">Hawk </span>
+              </div>
+  
+              <div class="bg-black-custom px-3 py-1 rounded-pill mx-1 d-none d-xxl-block">
+                <span class="roboto text-white">Roam </span>
+              </div>
+  
+            </div>
+          </div>
+  
+          <!-- ========= grid part ========= -->
+  
+          <div class="bg-darker">
+            <div class="container">
+              <div class="row">
+
+                <div class="col-3">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/cars.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/car-cricle-resize.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-3">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/rapper.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/rapper-logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-3">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/dogs.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/dogo-logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-3">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/cats.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/cats-logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+                
+                <div class="col-3">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/computer.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/computer-logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-3">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/gaming.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/gaming-logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-3">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/band.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/band-logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-3">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/beach.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/beach-logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>  
+
+              <div class="secret-line-2"></div>
+              
+              <!-- ========= shorts ========= -->
+              <div class="py-4">
+                <img src="image/shorts.png" class="image-fluid">
+                <span class="text-white roboto fs-4 ps-3">Shorts</span>
+              </div>
+
+              <div class="row">
+
+                <div class="col-2">
+                  <img src="image/rain.jpg" class="img-fluid">
+                  <p class="text-white roboto pt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                  <p class="color-aaa roboto">8M Views</p>
+                </div>
+
+                <div class="col-2">
+                  <img src="image/Music.jpg" class="img-fluid">
+                  <p class="text-white roboto pt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                  <p class="color-aaa roboto">8M Views</p>
+                </div>
+
+                <div class="col-2">
+                  <img src="image/beachs.jpg" class="img-fluid">
+                  <p class="text-white roboto pt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                  <p class="color-aaa roboto">8M Views</p>
+                </div>
+
+                <div class="col-2">
+                  <img src="image/road.jpg" class="img-fluid">
+                  <p class="text-white roboto pt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                  <p class="color-aaa roboto">8M Views</p>
+                </div>
+
+                <div class="col-2">
+                  <img src="image/shorts-dog.jpg" class="img-fluid">
+                  <p class="text-white roboto pt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                  <p class="color-aaa roboto">8M Views</p>
+                </div>
+
+                <div class="col-2">
+                  <img src="image/vodoo.jpg" class="img-fluid">
+                  <p class="text-white roboto pt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                  <p class="color-aaa roboto">8M Views</p>
+                </div>
+
+              </div>
+
+              <div class="secret-line-2"></div>
+
+              <div class="row">
+
+                <div class="col-3">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/cars.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/car-cricle-resize.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-3">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/rapper.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/rapper-logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-3">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/dogs.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/dogo-logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-3">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/cats.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/cats-logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+                
+                <div class="col-3">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/computer.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/computer-logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-3">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/gaming.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/gaming-logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-3">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/band.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/band-logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-3">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/beach.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/beach-logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>  
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!--=========== Desktop View ===========-->
+
+    <!--=========== Tablet ===========-->
+    <div class="d-none d-md-block d-xl-none d-lg-block">
+      <div class="row">
+        <div class="col-2 pt-3">
+  
+          <div class="d-flex justify-conten-center align-items-center  my-2 pb-3">
+            <i class="fa-solid fa-bars text-white px-4"></i>
+            <img src="image/youtube-logo.svg"  class="img-fluid">
+          </div>
+          
+          <div class="d-flex justify-content-center mt-5">
+            <i class="fa-solid fa-house text-white fs-5"></i>
+          </div>
+          
+          <div class="d-flex justify-content-center">
+            <p class="roboto text-white px-3 pt-2">Home</p>
+          </div>
+          
+          <div class="d-flex justify-content-center mt-5">
+            <i class="fa-solid fa-compass text-white fs-5"></i>
+          </div>
+          
+          <div class="d-flex justify-content-center">
+            <p class="roboto text-white px-3 pt-2">Explorer</p>
+          </div>
+          
+          <div class="d-flex justify-content-center mt-5">
+            <i class="fa-solid fa-sort  text-white fs-5"></i>
+          </div>
+          
+          <div class="d-flex justify-content-center">
+            <p class="roboto text-white px-3 pt-2">Shorts</p>
+          </div>
+        
+          
+          <div class="d-flex justify-content-center mt-5">
+            <i class="fa-solid fa-play text-white fs-5"></i>
+          </div>
+          
+          <div class="d-flex justify-content-center">
+            <p class="roboto text-white px-3 pt-2">Subscriptions</p>
+          </div>
+
+          <div class="d-flex justify-content-center mt-5">
+            <i class="fa-solid fa-images text-white fs-5"></i>
+          </div>
+          
+          <div class="d-flex justify-content-center">
+            <p class="roboto text-white px-3 pt-2">Library</p>
+          </div>
+
+          <div class="d-flex justify-content-center mt-5">
+            <i class="fa-solid fa-clock-rotate-left text-white fs-5"></i>
+          </div>
+          
+          <div class="d-flex justify-content-center">
+            <p class="roboto text-white px-3 pt-2">History</p>
+          </div>
+
+        </div>
+  
+        <div class="col-10">
+  
+          <!-- ========= nav part ========= -->
+          <div class="secret-line pb-3"> 
+            <div class="row">
+  
+              <div class="col-10 align-self-center">
+                <div class="d-flex justify-content-center ">
+                  <input type="text" class="form-control" placeholder="Search">
+                  <div class="bg-search px-3 pt-2">
+                    <i class="fa-solid fa-magnifying-glass text-white fs-5"></i>
+                  </div>
+                  <img src="image/mic-2.png" class="img-fluid px-3">
+                </div>
+              </div>
+  
+              <div class="col-2 align-self-center">
+  
+                <div class="d-flex justify-content-between align-items-center ">
+  
+                  <div class="pt-3">
+                    <i class="fa-solid fa-ellipsis-vertical text-white fs-3"></i>
+                  </div>
+  
+                  <div class="border-color mt-3 me-2">
+                    <div class="d-flex justify-content-between py-2">
+                      <i class="fa-solid fa-circle-user color-3ea6ff px-1"></i>
+                      <span class="text-uppercase roboto color-3ea6ff fs-tablet px-1">sign in</span>
+                    </div>
+                  </div>
+                
+                </div>
+              
+                
+  
+              </div>
+            </div>
+            
+  
+  
+          </div>
+          
+          <div class="secret-line py-3 ">
+            <div class="d-flex justify-content-evenly align-items-center">
+  
+              <div class="bg-white px-3 py-1 rounded-pill mx-1">
+                <span class="roboto">All</span>
+              </div>
+              
+              <div class="bg-black-custom px-3 py-1 rounded-pill mx-1">
+                <span class="roboto text-white">Live</span>
+              </div>
+  
+              <div class="bg-black-custom px-3 py-1 rounded-pill mx-1">
+                <span class="roboto text-white">Dare </span>
+              </div>
+  
+              <div class="bg-black-custom px-3 py-1 rounded-pill mx-1">
+                <span class="roboto text-white">Walk </span>
+              </div>
+  
+              <div class="bg-black-custom px-3 py-1 rounded-pill mx-1">
+                <span class="roboto text-white">Mice </span>
+              </div>
+  
+              <div class="bg-black-custom px-3 py-1 rounded-pill mx-1">
+                <span class="roboto text-white">Star </span>
+              </div>
+  
+              <div class="bg-black-custom px-3 py-1 rounded-pill mx-1">
+                <span class="roboto text-white">Iron </span>
+              </div>
+              
+              <div class="bg-black-custom px-3 py-1 rounded-pill mx-1 d-none d-xxl-block ">
+                <span class="roboto text-white">Harm </span>
+              </div>
+  
+              <div class="bg-black-custom px-3 py-1 rounded-pill mx-1 d-none d-xxl-block">
+                <span class="roboto text-white">Scot </span>
+              </div>
+  
+              <div class="bg-black-custom px-3 py-1 rounded-pill mx-1 d-none d-xxl-block">
+                <span class="roboto text-white">Bush </span>
+              </div>
+  
+              <div class="bg-black-custom px-3 py-1 rounded-pill mx-1 d-none d-xxl-block">
+                <span class="roboto text-white">Nice </span>
+              </div>
+  
+              <div class="bg-black-custom px-3 py-1 rounded-pill mx-1 d-none d-xxl-block">
+                <span class="roboto text-white">Hawk </span>
+              </div>
+  
+              <div class="bg-black-custom px-3 py-1 rounded-pill mx-1 d-none d-xxl-block">
+                <span class="roboto text-white">Roam </span>
+              </div>
+  
+            </div>
+          </div>
+  
+          <!-- ========= grid part ========= -->
+  
+          <div class="bg-darker">
+            <div class="container">
+              <div class="row">
+
+                <div class="col-4">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/cars.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/car-cricle-resize.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-4">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/rapper.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/rapper-logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-4">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/dogs.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/dogo-logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-4">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/cats.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/cats-logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+                
+                <div class="col-4">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/computer.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/computer-logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-4">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/gaming.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/gaming-logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-4">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/band.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/band-logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-4">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/beach.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/beach-logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>  
+
+              <div class="secret-line-2"></div>
+              
+              <!-- ========= shorts ========= -->
+              <div class="py-4">
+                <img src="image/shorts.png" class="image-fluid">
+                <span class="text-white roboto fs-4 ps-3">Shorts</span>
+              </div>
+
+              <div class="row">
+
+                <div class="col-3">
+                  <img src="image/rain.jpg" class="img-fluid">
+                  <p class="text-white roboto pt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                  <p class="color-aaa roboto">8M Views</p>
+                </div>
+
+                <div class="col-3">
+                  <img src="image/Music.jpg" class="img-fluid">
+                  <p class="text-white roboto pt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                  <p class="color-aaa roboto">8M Views</p>
+                </div>
+
+                <div class="col-3">
+                  <img src="image/beachs.jpg" class="img-fluid">
+                  <p class="text-white roboto pt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                  <p class="color-aaa roboto">8M Views</p>
+                </div>
+
+                <div class="col-3">
+                  <img src="image/road.jpg" class="img-fluid">
+                  <p class="text-white roboto pt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                  <p class="color-aaa roboto">8M Views</p>
+                </div>
+
+              </div>
+
+              <div class="secret-line-2"></div>
+
+              <div class="row">
+
+                <div class="col-4">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/cars.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/car-cricle-resize.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-4">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/rapper.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/rapper-logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-4">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/dogs.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/dogo-logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-4">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/cats.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/cats-logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+                
+                <div class="col-4">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/computer.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/computer-logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-4">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/gaming.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/gaming-logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-4">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/band.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/band-logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-4">
+
+                  <div class="py-4">
+                    <div class="position-relative">
+                      <img src="image/beach.jpg" class="img-fluid">
+                      <div class="position-absolutes mb-3">
+                        <div class="bg-dark-transparent  text-center px-4 mx-3">
+                          <span class="text-white roboto">10:42</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center">
+                    <div>
+                      <img src="image/beach-logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="px-4">
+                      <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+                      <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>  
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!--=========== Tablet ===========-->
+
+    <!--=========== Mobile ===========-->
+    <div class="d-block d-md-none">
+      
+      <div class="d-flex justify-content-evenly align-items-center px-3 pt-3">
+
+        <div class="d-flex justify-conten-center align-items-center ">
+          <i class="fa-solid fa-bars text-white pe-4"></i>
+          <img src="image/youtube-logo.svg"  class="img-fluid w-50">
+        </div>
+
+        <div class="mx-2">
+          <i class="fa-solid fa-magnifying-glass text-white"></i>
+        </div>
+
+        <div class="mx-2">
+          <i class="fa-solid fa-microphone text-white"></i>
+        </div>
+        
+        <div class="mx-2">
+          <i class="fa-solid fa-ellipsis-vertical text-white"></i>
+        </div>
+        
+      </div>
+
+      <div class="secret-line mt-4"></div>
+
+      <div class="d-flex justify-content-evenly align-items-center mt-3">
+  
+        <div class="bg-white px-3 py-1 rounded-pill mx-1">
+          <span class="roboto">All</span>
+        </div>
+        
+        <div class="bg-black-custom px-3 py-1 rounded-pill mx-1">
+          <span class="roboto text-white">Live</span>
+        </div>
+
+        <div class="bg-black-custom px-3 py-1 rounded-pill mx-1">
+          <span class="roboto text-white">Dare </span>
+        </div>
+
+        <div class="bg-black-custom px-3 py-1 rounded-pill mx-1">
+          <span class="roboto text-white">Walk </span>
+        </div>
+
+        <div class="bg-black-custom px-3 py-1 rounded-pill mx-1">
+          <span class="roboto text-white">Mice </span>
+        </div>
+
+        <div class="bg-black-custom px-3 py-1 rounded-pill mx-1">
+          <span class="roboto text-white">Star </span>
+        </div>
+      </div>
+
+      <div class="secret-line mt-4"></div>
+
+      <div class="row">
+
+        <div class="col-12 px-5">
+
+          <div class="py-4">
+            <div class="position-relative">
+              <img src="image/cars.jpg" class="img-fluid">
+              <div class="position-absolutes mb-3">
+                <div class="bg-dark-transparent  text-center px-4 mx-3">
+                  <span class="text-white roboto">10:42</span>
+                </div>
+              </div>
+            </div>
+            
+            <div>
+              
+            </div>
+          </div>
+          
+          <div class="d-flex justify-content-center">
+            <div>
+              <img src="image/car-cricle-resize.png" class="img-fluid">
+            </div>
+
+            <div class="px-4">
+              <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+              <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-12 px-5">
+
+          <div class="py-4">
+            <div class="position-relative">
+              <img src="image/rapper.jpg" class="img-fluid">
+              <div class="position-absolutes mb-3">
+                <div class="bg-dark-transparent  text-center px-4 mx-3">
+                  <span class="text-white roboto">10:42</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="d-flex justify-content-center">
+            <div>
+              <img src="image/rapper-logo.png" class="img-fluid">
+            </div>
+
+            <div class="px-4">
+              <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+              <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="px-5">
+          <div class="secret-line-mobile mt-2 "></div>
+        </div>
+        
+        <div class="px-5">
+          <div class="py-4">
+            <img src="image/shorts.png" class="image-fluid">
+            <span class="text-white roboto fs-4 ps-3">Shorts</span>
+          </div>  
+        </div>
+        
+        <div class="px-5">
+          <div class="row">
+            <div class="col-6">
+              <img src="image/shorts-dog.jpg" class="img-fluid">
+              <p class="text-white roboto pt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p class="color-aaa roboto">8M Views</p>
+            </div>
+    
+            <div class="col-6">
+              <img src="image/vodoo.jpg" class="img-fluid">
+              <p class="text-white roboto pt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p class="color-aaa roboto">8M Views</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-12 px-5">
+
+          <div class="py-4">
+            <div class="position-relative">
+              <img src="image/gaming.jpg" class="img-fluid">
+              <div class="position-absolutes mb-3">
+                <div class="bg-dark-transparent  text-center px-4 mx-3">
+                  <span class="text-white roboto">10:42</span>
+                </div>
+              </div>
+            </div>
+            
+            <div>
+              
+            </div>
+          </div>
+          
+          <div class="d-flex justify-content-center">
+            <div>
+              <img src="image/gaming-logo.png" class="img-fluid">
+            </div>
+
+            <div class="px-4">
+              <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+              <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-12 px-5">
+
+          <div class="py-4">
+            <div class="position-relative">
+              <img src="image/band.jpg" class="img-fluid">
+              <div class="position-absolutes mb-3">
+                <div class="bg-dark-transparent  text-center px-4 mx-3">
+                  <span class="text-white roboto">10:42</span>
+                </div>
+              </div>
+            </div>
+            
+            <div>
+              
+            </div>
+          </div>
+          
+          <div class="d-flex justify-content-center">
+            <div>
+              <img src="image/band-logo.png" class="img-fluid">
+            </div>
+
+            <div class="px-4">
+              <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+              <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-12 px-5">
+
+          <div class="py-4">
+            <div class="position-relative">
+              <img src="image/beach.jpg" class="img-fluid">
+              <div class="position-absolutes mb-3">
+                <div class="bg-dark-transparent  text-center px-4 mx-3">
+                  <span class="text-white roboto">10:42</span>
+                </div>
+              </div>
+            </div>
+            
+            <div>
+              
+            </div>
+          </div>
+          
+          <div class="d-flex justify-content-center">
+            <div>
+              <img src="image/beach-logo.png" class="img-fluid">
+            </div>
+
+            <div class="px-4">
+              <p class="text-white roboto mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p class=" roboto sub-text color-aaa mb-0">Lorem ipsum.</p>
+              <p class=" roboto sub-text color-aaa">100k Views 10days ago</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!--=========== Mobile ===========-->
+    
+  </section>
+  
+  <script src="https://kit.fontawesome.com/9829aaf130.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
