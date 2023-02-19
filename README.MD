@@ -1,7 +1,6 @@
 
-```
-This project is a frontend clone of the YouTube website built using HTML, CSS, and Bootstrap. The project was built as a way to practice front-end web development skills and showcase an understanding of responsive design.
-```
+### This project is a frontend clone of the YouTube website built using HTML, CSS, and Bootstrap. The project was built as a way to practice front-end web development skills and showcase an understanding of responsive design.
+
 
 
 ## Tech Stack 
